@@ -75,7 +75,7 @@
     "preferGlobal": true,
     "repository": {
         "type": "git",
-        "url": "https://github.com/oxycash/vlocity_build.git"
+        "url": "https://github.com/vlocityinc/vlocity_build.git"
     },
     "scripts": {
         "start": "vlocity help",
@@ -91,5 +91,5 @@
         "build": "pkg . --out-path ./dist",
         "nyctest": "nyc mocha test/**/**.spec.js"
     },
-    "version": "1.14.17"
+    "version": "0.0.1"
 }
